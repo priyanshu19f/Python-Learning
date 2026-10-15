@@ -6,7 +6,16 @@ Create a list of 5 of your favourite movies. Print the first, last, and middle m
 # Middle movie: The Matrix
 # Last movie: Forrest Gump
 """
-movies = ["The Shawshank Redemption", "Spiderman","The Matrix", "Antman" , "Forrest Gump","Avengers", "Iron Man"]
+
+movies = [
+    "The Shawshank Redemption",
+    "Spiderman",
+    "The Matrix",
+    "Antman",
+    "Forrest Gump",
+    "Avengers",
+    "Iron Man",
+]
 n = len(movies)
 # positive indexing
 print(f"first movie : {movies[0]}")
